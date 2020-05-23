@@ -46,11 +46,12 @@ The new database and container should show up under the **Data** section. Use th
 SELECT c.Action, c.Price as ItemRevenue, c.Country, c.Item FROM c
 ```
 
-#### execution result
+### execution result
 
-Image/img1.PNG
-
-![exec_result](Image/img1.PNG?raw=true "exec_result")
+ ![exec_result](Image/img1.PNG?raw=true "exec_result")
+ 
+ 
+ 
 
 
 
