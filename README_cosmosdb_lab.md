@@ -32,3 +32,7 @@ We can use the ```%database {database_id}``` and ```%container {container_id}```
 
 ### Load in sample JSON data and insert into the container. 
 We'll use the **%%upload** magic function to insert items into the container
+
+```
+%%upload --databaseName RetailDemo --containerName WebsiteData --url https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/websiteData-small.json
+```
