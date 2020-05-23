@@ -68,7 +68,8 @@ writeOutputTimeInMs : 0.02
 averageIndexUtilizationRation : 1
 
 
-|Action| ItemRevenue |	Country	|Item |
+|Action| ItemRevenue | Country	|Item |
+ ------  ------------  -------   ----
 | :---: | :---: | :---: |
 0	|Viewed|	3.75	|Guinea-Bissau|Socks
 
