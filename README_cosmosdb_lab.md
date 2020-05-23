@@ -38,5 +38,5 @@ We'll use the **%%upload** magic function to insert items into the container
 ```
 The new database and container should show up under the **Data** section. Use the refresh icon after completing the previous cell. 
 
-<img src="https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/refreshData.png" alt="Refresh Data resource tree to see newly created resources" width="40%"/>
+<img src="https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/refreshData.png" alt="Refresh Data resource tree to see newly created resources" width="60%"/>
 
