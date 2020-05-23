@@ -47,17 +47,8 @@ SELECT c.Action, c.Price as ItemRevenue, c.Country, c.Item FROM c
 ```
 
 #### execution result
-totalExecutionTimeInMs : 0.49
 
-queryCompileTimeInMs : 0.11
-
-queryLogicalPlanBuildTimeInMs : 0.03
-
-
-
-| |Action| ItemRevenue | Country	|Item |
-| :---: | :---: | :---: |:---: |:---: |
-|0|Viewed|	3.75	|Guinea-Bissau|Socks|
+Image/img1.PNG
 
 
 
