@@ -2,9 +2,11 @@
 
 In this notebook, we'll learn how to use Cosmos notebook features. We'll create a database and container, import some sample data in a container in Azure Cosmos DB and run some queries over it.
 
-# Getting started with Cosmos notebooks
+### Create new database and container
 
-In this notebook, we'll learn how to use Cosmos notebook features. We'll create a database and container, import some sample data in a container in Azure Cosmos DB and run some queries over it.
+To connect to the service, you can use our built-in instance of ```cosmos_client```. This is a ready to use instance of [CosmosClient](https://docs.microsoft.com/python/api/azure-cosmos/azure.cosmos.cosmos_client.cosmosclient?view=azure-python) from our Python SDK. It already has the context of this account baked in. We'll use ```cosmos_client``` to create a new database called **RetailDemo** and container called **WebsiteData**.
+
+Our dataset will contain events that occurred on the website - e.g. a user viewing an item, adding it to their cart, or purchasing it. We will partition by CartId, which represents the individual cart of each user. This will give us an even distribution of throughput and storage in our container. Learn more about how to [choose a good partition key.](https://docs.microsoft.com/azure/cosmos-db/partition-data)
 
 ```
 import azure.cosmos
