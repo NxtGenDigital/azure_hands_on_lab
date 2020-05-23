@@ -41,7 +41,10 @@ The new database and container should show up under the **Data** section. Use th
 <img src="https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/refreshData.png" alt="Refresh Data resource tree to see newly created resources" width="60%"/>
 
 ### Run a query using the built-in Azure Cosmos notebook magic
-
+```
+%%sql
+SELECT c.Action, c.Price as ItemRevenue, c.Country, c.Item FROM c
+```
 
 #### execution result
 totalExecutionTimeInMs : 0.49
@@ -66,7 +69,7 @@ averageIndexUtilizationRation : 1
 
 
 |Action| ItemRevenue |	Country	|Item |
---- | --- | --- | --- |--- |
+| :---: | :---: | :---: |
 0	|Viewed|	3.75	|Guinea-Bissau|Socks
 
 
