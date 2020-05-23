@@ -36,3 +36,7 @@ We'll use the **%%upload** magic function to insert items into the container
 ```
 %%upload --databaseName RetailDemo --containerName WebsiteData --url https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/websiteData-small.json
 ```
+The new database and container should show up under the **Data** section. Use the refresh icon after completing the previous cell. 
+
+<img src="https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/refreshData.png" alt="Refresh Data resource tree to see newly created resources" width="40%"/>
+
