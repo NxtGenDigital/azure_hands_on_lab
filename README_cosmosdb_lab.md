@@ -22,3 +22,9 @@ print('Container WebsiteData created')
 #### Set the default database and container context to the new resources
 
 We can use the ```%database {database_id}``` and ```%container {container_id}``` syntax.
+
+```
+%database RetailDemo
+```
+
+
