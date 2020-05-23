@@ -84,7 +84,7 @@ averageIndexUtilizationRation : 1
  ------  ------------  -------   ----
 0|Viewed|	3.75	|Guinea-Bissau|Socks
 1|Added | 19.99|Syrian Arab Republic|Button-Up Shirt
-
+2|Viewed|9.00|Black Tee
 
 1	Added	19.99	Syrian Arab Republic	Button-Up Shirt
 2	Viewed	9.00	Tunisia	Black Tee
