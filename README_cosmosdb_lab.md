@@ -42,9 +42,14 @@ The new database and container should show up under the **Data** section. Use th
 
 ### Run a query using the built-in Azure Cosmos notebook magic
 
+
+#### execution result
 totalExecutionTimeInMs : 0.49
+
 queryCompileTimeInMs : 0.11
+
 queryLogicalPlanBuildTimeInMs : 0.03
+
 queryPhysicalPlanBuildTimeInMs : 0.03
 queryOptimizationTimeInMs : 0
 VMExecutionTimeInMs : 0.12
@@ -58,8 +63,14 @@ outputDocumentCount : 7
 outputDocumentSize : 640
 writeOutputTimeInMs : 0.02
 averageIndexUtilizationRation : 1
-Action	ItemRevenue	Country	Item
-0	Viewed	3.75	Guinea-Bissau	Socks
+
+
+|Action| ItemRevenue |	Country	|Item |
+--- | --- | --- | --- |--- |
+0	|Viewed|	3.75	|Guinea-Bissau|Socks
+
+
+
 1	Added	19.99	Syrian Arab Republic	Button-Up Shirt
 2	Viewed	9.00	Tunisia	Black Tee
 3	Viewed	55.00	Czech Republic	Rainjacket
