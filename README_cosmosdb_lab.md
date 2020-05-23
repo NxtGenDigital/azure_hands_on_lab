@@ -54,17 +54,29 @@ queryCompileTimeInMs : 0.11
 queryLogicalPlanBuildTimeInMs : 0.03
 
 queryPhysicalPlanBuildTimeInMs : 0.03
+
 queryOptimizationTimeInMs : 0
+
 VMExecutionTimeInMs : 0.12
+
 indexLookupTimeInMs : 0
+
 documentLoadTimeInMs : 0.06
+
 systemFunctionExecuteTimeInMs : 0
+
 userFunctionExecuteTimeInMs : 0
+
 retrievedDocumentCount : 7
+
 retrievedDocumentSize : 3625
+
 outputDocumentCount : 7
+
 outputDocumentSize : 640
+
 writeOutputTimeInMs : 0.02
+
 averageIndexUtilizationRation : 1
 
 
