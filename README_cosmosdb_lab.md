@@ -53,42 +53,11 @@ queryCompileTimeInMs : 0.11
 
 queryLogicalPlanBuildTimeInMs : 0.03
 
-queryPhysicalPlanBuildTimeInMs : 0.03
-
-queryOptimizationTimeInMs : 0
-
-VMExecutionTimeInMs : 0.12
-
-indexLookupTimeInMs : 0
-
-documentLoadTimeInMs : 0.06
-
-systemFunctionExecuteTimeInMs : 0
-
-userFunctionExecuteTimeInMs : 0
-
-retrievedDocumentCount : 7
-
-retrievedDocumentSize : 3625
-
-outputDocumentCount : 7
-
-outputDocumentSize : 640
-
-writeOutputTimeInMs : 0.02
-
-averageIndexUtilizationRation : 1
 
 
-|Action| ItemRevenue | Country	|Item |
- ------  ------------  -------   ----
-0|Viewed|	3.75	|Guinea-Bissau|Socks
-1|Added | 19.99|Syrian Arab Republic|Button-Up Shirt
-2|Viewed|9.00|Black Tee
+| |Action| ItemRevenue | Country	|Item |
+| :---: | :---: | :---: |:---: |:---: |
+|0|Viewed|	3.75	|Guinea-Bissau|Socks|
 
-1	Added	19.99	Syrian Arab Republic	Button-Up Shirt
-2	Viewed	9.00	Tunisia	Black Tee
-3	Viewed	55.00	Czech Republic	Rainjacket
-4	Added	3.75	Guinea-Bissau	Socks
-5	Viewed	350.00	Iceland	Cosmos T-shirt
-6	Viewed	19.99	Antigua and Barbuda	Flannel Shirt
+
+
