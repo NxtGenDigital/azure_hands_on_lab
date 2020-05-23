@@ -8,7 +8,7 @@ To connect to the service, you can use our built-in instance of ```cosmos_client
 
 Our dataset will contain events that occurred on the website - e.g. a user viewing an item, adding it to their cart, or purchasing it. We will partition by CartId, which represents the individual cart of each user. This will give us an even distribution of throughput and storage in our container. Learn more about how to [choose a good partition key.](https://docs.microsoft.com/azure/cosmos-db/partition-data)
 
-```Python
+```python
 import azure.cosmos
 from azure.cosmos.partition_key import PartitionKey
 
@@ -41,8 +41,7 @@ The new database and container should show up under the **Data** section. Use th
 <img src="https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/refreshData.png" alt="Refresh Data resource tree to see newly created resources" width="60%"/>
 
 ### Run a query using the built-in Azure Cosmos notebook magic
-```
-%%sql
+```Sql
 SELECT c.Action, c.Price as ItemRevenue, c.Country, c.Item FROM c
 ```
 
