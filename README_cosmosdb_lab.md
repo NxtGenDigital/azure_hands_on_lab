@@ -8,7 +8,7 @@ To connect to the service, you can use our built-in instance of ```cosmos_client
 
 Our dataset will contain events that occurred on the website - e.g. a user viewing an item, adding it to their cart, or purchasing it. We will partition by CartId, which represents the individual cart of each user. This will give us an even distribution of throughput and storage in our container. Learn more about how to [choose a good partition key.](https://docs.microsoft.com/azure/cosmos-db/partition-data)
 
-```
+```Python
 import azure.cosmos
 from azure.cosmos.partition_key import PartitionKey
 
