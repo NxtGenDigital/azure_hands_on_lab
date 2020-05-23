@@ -2,7 +2,7 @@
 
 In this notebook, we'll learn how to use Cosmos notebook features. We'll create a database and container, import some sample data in a container in Azure Cosmos DB and run some queries over it.
 
-### Create new database and container
+### step 1 - Create new database and container
 
 To connect to the service, you can use our built-in instance of ```cosmos_client```. This is a ready to use instance of [CosmosClient](https://docs.microsoft.com/python/api/azure-cosmos/azure.cosmos.cosmos_client.cosmosclient?view=azure-python) from our Python SDK. It already has the context of this account baked in. We'll use ```cosmos_client``` to create a new database called **RetailDemo** and container called **WebsiteData**.
 
@@ -19,7 +19,7 @@ container = database.create_container_if_not_exists(id='WebsiteData', partition_
 print('Container WebsiteData created')
 ```
 
-#### Set the default database and container context to the new resources
+### step 2 - Set the default database and container context to the new resources
 
 We can use the ```%database {database_id}``` and ```%container {container_id}``` syntax.
 
@@ -30,27 +30,31 @@ We can use the ```%database {database_id}``` and ```%container {container_id}```
 %container WebsiteData
 ````
 
-### Load in sample JSON data and insert into the container. 
+### Step 3 - Load in sample JSON data and insert into the container. 
+
 We'll use the **%%upload** magic function to insert items into the container
 
 ```
 %%upload --databaseName RetailDemo --containerName WebsiteData --url https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/websiteData-small.json
 ```
+A Special note:
 The new database and container should show up under the **Data** section. Use the refresh icon after completing the previous cell. 
 
 <img src="https://cosmosnotebooksdata.blob.core.windows.net/notebookdata/refreshData.png" alt="Refresh Data resource tree to see newly created resources" width="60%"/>
 
-### Run a query using the built-in Azure Cosmos notebook magic
+
+### Step 4 - Run a query using the built-in Azure Cosmos notebook magic
+
 ```Sql
 SELECT c.Action, c.Price as ItemRevenue, c.Country, c.Item FROM c
 ```
 
-### execution result
+execution result:
 
  ![exec_result](Image/img1.PNG?raw=true "exec_result")
  
  
  
-
+### Step 5 - Run a query using the built-in Azure Cosmos notebook magic
 
 
