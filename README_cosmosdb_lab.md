@@ -50,5 +50,7 @@ SELECT c.Action, c.Price as ItemRevenue, c.Country, c.Item FROM c
 
 Image/img1.PNG
 
+![exec_result](Image/img1.PNG?raw=true "exec_result")
+
 
 
