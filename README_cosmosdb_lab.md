@@ -54,6 +54,7 @@ execution result:
  ![exec_result](Image/img1.PNG?raw=true "exec_result")
  
  
+ Note: We can get more information about the %%sql command using ```%%sql?```
  
 ### Step 5 - Run a query using the built-in Azure Cosmos notebook magic
 
