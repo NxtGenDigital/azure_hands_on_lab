@@ -70,9 +70,8 @@ averageIndexUtilizationRation : 1
 
 |Action| ItemRevenue | Country	|Item |
  ------  ------------  -------   ----
-
-0	|Viewed|	3.75	|Guinea-Bissau|Socks
-
+0|Viewed|	3.75	|Guinea-Bissau|Socks
+1|Added | 19.99|Syrian Arab Republic|Button-Up Shirt
 
 
 1	Added	19.99	Syrian Arab Republic	Button-Up Shirt
